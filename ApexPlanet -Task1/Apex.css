@@ -1,0 +1,259 @@
+body{
+    background-color:white;
+}
+
+h3{
+    color:turquoise;
+}
+
+p{
+    font-size:15px;
+    color: black;
+}
+h1{
+    color:deeppink;
+    padding-top: 10px;
+}
+
+.comp{
+    color:darkorchid;
+}
+ul{
+    list-style-type:none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: black;
+    
+}
+
+
+
+
+
+li
+{
+    color:white;
+    float:right; 
+    padding: 14px 16px;
+
+
+}
+
+.links{
+    color: azure;
+    
+    
+}
+
+li:hover{
+    
+    color:cyan;
+}
+
+.data{
+    padding-top: 20px;
+}
+
+@media screen and (max-width: 900px) {
+ul.sidenav {
+width: 100%;
+height: auto;
+position: relative;
+}
+
+ul.sidenav li  {
+float: left;
+padding: 15px;
+}
+
+
+}
+
+
+@media screen and (max-width: 400px) {
+ul.sidenav li  {
+text-align: center;
+float: none;
+}
+}
+
+.myform{
+    padding-top: 20px;
+    background-color:turquoise;
+    padding-left: 50px;
+}
+
+
+.button{
+    background: green;
+    color: #ffff;
+    margin: 25px 60px;
+}
+
+.form1{
+    padding-top: 20px;
+}
+
+
+
+
+.pic {
+    width: 100%;
+    height: auto;
+    display: block;
+    
+}
+
+
+
+@media (min-width: 992px) {
+    .col-4 {
+        max-width: 25%;
+    }
+    .col-8 {
+        max-width: 75%;
+    }
+}
+
+
+@media (max-width: 767px) {
+    .row {
+        flex-direction: column;
+    }
+    .col-4, .col-8 {
+        max-width: 100%;
+        text-align: center;
+    }
+    .data p {
+        font-size: 0.9rem;
+    }
+}
+
+.spacex{
+    width: 50%;
+    height: 50%;
+    padding-left: 80px;
+
+}
+
+
+
+
+.container-fluid {
+    padding: 20px;
+}
+
+h1 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.spacex{
+    width: 100%;
+    height: auto;
+    margin-top: 10px;
+}
+
+.telsa {
+    width: 77%;
+    height: auto;
+    margin-top: 10px;
+}
+
+
+@media (max-width: 767px) {
+    .row {
+        flex-direction: column;
+    }
+
+    .col-6 {
+        max-width: 100%;
+        text-align: center;
+    }
+
+    h3 {
+        font-size: 1.5rem;
+    }
+
+    p {
+        font-size: 0.9rem;
+    }
+}
+
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .col-6 {
+        max-width: 50%;
+    }
+
+    h3 {
+        font-size: 1.7rem;
+    }
+
+    p {
+        font-size: 1rem;
+    }
+}
+
+@media (min-width: 992px) {
+    .col-6 {
+        max-width: 50%;
+    }
+
+    h3 {
+        font-size: 1.8rem;
+    }
+
+    p {
+        font-size: 1rem;
+    }
+}
+
+
+
+
+
+@media (max-width: 767px) {
+    .myform {
+        padding: 15px;
+    }
+
+    .myform h2 {
+        font-size: 1.6rem;
+    }
+
+    .form1 label {
+        font-size: 0.9rem;
+    }
+
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .myform h2 {
+        font-size: 1.7rem;
+    }
+
+    .form1 label {
+        font-size: 1rem;
+    }
+
+    
+}
+
+
+@media (min-width: 992px) {
+    .myform {
+        max-width: 700px;
+    }
+
+    .myform h2 {
+        font-size: 2rem;
+    }
+
+    .form1 label {
+        font-size: 1.1rem;
+    }
+
+    
+}
